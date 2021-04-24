@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fpContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column`;
+}
+.formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fpForm {
+  font-size: x-large;
+  padding: 40px;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+.slipsContainer {
+  height: 100vh;
+  width: 100vw;;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.slipsContainer h1 {
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer {
+  /* display: flex; */
+  height: 90%;
+  padding-top: 60px;
+  border: 1px solid rgb(206, 204, 204);
+}
+
+#table {
+  display: table;
+  padding: 5px;
+}
+.tr {
+  display: table-row;
+  padding: 5px;
+}
+
+.tdHeader {
+  font-weight: bolder;
+}
+
+.td {
+  display: table-cell;
+  padding: 30px;
+  width: 150px;
+  margin: 5px;
+  border-bottom: 1px solid rgb(206, 204, 204);
+
+}
