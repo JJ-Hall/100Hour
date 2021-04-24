@@ -1,4 +1,4 @@
-import UserInfo from "./UserInfo.js"
+import SlipInfo from "./SlipInfo.js"
 
 function SlipsPage() {
     return (
@@ -14,15 +14,16 @@ function SlipsPage() {
                         <div class="td tdHeader" >Lift</div>
                         <div class="td tdHeader">Avaiable</div>
                     </div>
-                    <UserInfo 
+                    <SlipInfo 
                         slip="1"
                         name="Josh Hall"
+                        id= "46832"
                         length="24"
                         cost = "2000"
                         lift = "yes"
                         available = "yes"
                     />
-                    <UserInfo 
+                    <SlipInfo 
                         slip="2"
                         name="Zach Hall"
                         length="12"
@@ -30,7 +31,7 @@ function SlipsPage() {
                         lift = "No"
                         available = "yes"
                     /> 
-                     <UserInfo 
+                     <SlipInfo 
                         slip="3"
                         name="Nick Hall"
                         length="20"
@@ -38,7 +39,7 @@ function SlipsPage() {
                         lift = "yes"
                         available = "No"
                     /> 
-                     <UserInfo 
+                     <SlipInfo 
                         slip="4"
                         name="Tim"
                         length="24"
@@ -46,7 +47,7 @@ function SlipsPage() {
                         lift = "No"
                         available = "No"
                     /> 
-                    <UserInfo 
+                    <SlipInfo 
                         slip="5"
                         name="Mitch"
                         length="12"
