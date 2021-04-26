@@ -4,6 +4,7 @@ function SlipsPage() {
     return (
         <div className="slipsContainer">
             <h1>Slips Information</h1>
+            <button>New Slip</button>
             <div className="tableContainer">
                 <div id="table">
                     <div class="tr">

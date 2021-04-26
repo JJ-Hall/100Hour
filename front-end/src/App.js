@@ -2,6 +2,7 @@ import React from "react"
 import './App.css';
 import LoginPage from './component/LoginPage';
 import SlipsPage from './component/SlipsPage';
+import NewSlip from './component/NewSlip';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
     <div>
       {/* <LoginPage></LoginPage> */}
       <p>{!data ? "Loading..." : data}</p>
-      <SlipsPage></SlipsPage>
+      {/* <SlipsPage></SlipsPage> */}
+      <NewSlip></NewSlip>
     </div>
   )}
 

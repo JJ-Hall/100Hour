@@ -76,3 +76,14 @@ code {
   border-bottom: 1px solid rgb(206, 204, 204);
 
 }
+
+.newSlipQuestion {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  margin: 20px;
+}
+
+.newSlipForm {
+  display: flex;
+}
